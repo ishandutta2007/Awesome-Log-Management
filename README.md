@@ -22,7 +22,7 @@ Log management platforms collect, parse, index, search, and analyze event logs f
   - [Market Size & Industry Landscape](#-market-size--industry-landscape)
   - [SaaS Pricing & Limits Comparison](#-saas-pricing--limits-comparison)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [Ranked by GitHub_Stars](#-ranked-by-github-stars)
 - [🏗️ Architectural Blueprints & Stacks](#️-architectural-blueprints--stacks)
 - [⚖️ SaaS vs. Self-Hosted Decision Guide](#️-saas-vs-self-hosted-decision-guide)
 - [🛠️ How to Contribute](#️-how-to-contribute)
@@ -63,59 +63,59 @@ Below is a detailed comparison of leading commercial SaaS log management platfor
 
 Centralized logging has a robust open-source ecosystem, offering self-hosted freedom, data sovereignty, predictable infrastructure expenses, and compatibility with the OpenTelemetry (OTel) standard.
 
-### 🌟 Ranked by GitHub Stars
+### 🌟 Ranked by GitHub_Stars
 
-The open-source projects below are **sorted in descending order by GitHub star count**. Each star badge links directly to the repository's stargazers page.
+The open-source projects below are **sorted in descending order by GitHub Stars_Count**. Each Stars_Badge links directly to the repository's stargazers page.
 
-1. **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
+1. **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
    Distributed, JSON-based RESTful search and analytics engine for centralized log indexing, aggregation, and full-text querying across massive distributed clusters.
 
-2. **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+2. **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
    OpenTelemetry-native open-source observability platform integrating logs, metrics, and APM traces in a unified interface, powered by ClickHouse columnar storage for blazing query speeds.
 
-3. **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
+3. **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
    Horizontally scalable, multi-tenant log aggregation system inspired by Prometheus. Loki indexes metadata labels rather than full message text, drastically lowering storage footprint and CPU overhead.
 
-4. **[Vector](https://github.com/vectordotdev/vector)** [![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+4. **[Vector](https://github.com/vectordotdev/vector)** [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
    High-performance, memory-safe observability data pipeline written in Rust. Vector collects, enriches, transforms (via Vector Remap Language - VRL), and routes logs, metrics, and traces with ultra-low latency.
 
-5. **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
+5. **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub_Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
    Cloud-native observability and log search engine built in Rust on Apache Arrow and DataFusion. Delivers up to 140x lower storage costs by storing parquet data directly in object storage with single-binary deployment.
 
-6. **[ZincSearch](https://github.com/zincsearch/zincsearch)** [![GitHub stars](https://img.shields.io/github/stars/zincsearch/zincsearch?style=social&color=white)](https://github.com/zincsearch/zincsearch/stargazers)  
+6. **[ZincSearch](https://github.com/zincsearch/zincsearch)** [![GitHub_Stars](https://img.shields.io/github/stars/zincsearch/zincsearch?style=social&color=white)](https://github.com/zincsearch/zincsearch/stargazers)  
    Lightweight alternative to Elasticsearch written in Go for full-text log indexing and search, operating with low memory footprints and simple single-binary deployments.
 
-7. **[Logstash](https://github.com/elastic/logstash)** [![GitHub stars](https://img.shields.io/github/stars/elastic/logstash?style=social&color=white)](https://github.com/elastic/logstash/stargazers)  
+7. **[Logstash](https://github.com/elastic/logstash)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/logstash?style=social&color=white)](https://github.com/elastic/logstash/stargazers)  
    Server-side data processing and ETL pipeline that ingests data from multiple sources simultaneously, transforms it using rich filter plugins (Grok, Mutate, GeoIP), and ships it to Elasticsearch, OpenSearch, and object storage.
 
-8. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
+8. **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
    Community-driven, Apache 2.0-licensed distributed search and analytics suite (forked from Elasticsearch 7.10) featuring OpenSearch Dashboards, alerting, anomaly detection, and vector search.
 
-9. **[Fluentd](https://github.com/fluent/fluentd)** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)  
+9. **[Fluentd](https://github.com/fluent/fluentd)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluentd?style=social&color=white)](https://github.com/fluent/fluentd/stargazers)  
    CNCF-graduated unified logging layer and event collector with hundreds of community plugins for collecting, buffering, and routing log streams reliably across diverse enterprise backends.
 
-10. **[Elastic Beats](https://github.com/elastic/beats)** [![GitHub stars](https://img.shields.io/github/stars/elastic/beats?style=social&color=white)](https://github.com/elastic/beats/stargazers)  
+10. **[Elastic Beats](https://github.com/elastic/beats)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/beats?style=social&color=white)](https://github.com/elastic/beats/stargazers)  
     Family of lightweight, single-purpose data shippers (Filebeat, Metricbeat, Packetbeat, Heartbeat, Auditbeat) for forwarding log files and system metrics reliably to Logstash, Elasticsearch, or Kafka.
 
-11. **[Quickwit](https://github.com/quickwit-oss/quickwit)** [![GitHub stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)  
+11. **[Quickwit](https://github.com/quickwit-oss/quickwit)** [![GitHub_Stars](https://img.shields.io/github/stars/quickwit-oss/quickwit?style=social&color=white)](https://github.com/quickwit-oss/quickwit/stargazers)  
     Sub-second cloud-native search engine written in Rust designed to query petabytes of logs and traces directly on cloud object storage (Amazon S3, Azure Blob, Google Cloud Storage) with Elasticsearch API compatibility.
 
-12. **[Graylog](https://github.com/Graylog2/graylog2-server)** [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
+12. **[Graylog](https://github.com/Graylog2/graylog2-server)** [![GitHub_Stars](https://img.shields.io/github/stars/Graylog2/graylog2-server?style=social&color=white)](https://github.com/Graylog2/graylog2-server/stargazers)  
     Centralized log management platform with a dedicated web UI, message parsing rules, stream pipelines, real-time alerting, and role-based access control (RBAC).
 
-13. **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
+13. **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
     Super fast, lightweight, and highly scalable log, metrics, and traces processor written in C; the default de facto logging agent across Kubernetes, container runtimes, and embedded edge devices.
 
-14. **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
+14. **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
     Vendor-agnostic telemetry proxy that receives, processes, batches, filters, and exports telemetry data (logs, metrics, traces) using the universal OpenTelemetry Protocol (OTLP).
 
-15. **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
+15. **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub_Stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
     Open-source APM and observability platform leveraging OpenTelemetry and ClickHouse to parse, monitor, and query logs, metrics, and distributed traces in high-load microservices.
 
-16. **[syslog-ng](https://github.com/syslog-ng/syslog-ng)** [![GitHub stars](https://img.shields.io/github/stars/syslog-ng/syslog-ng?style=social&color=white)](https://github.com/syslog-ng/syslog-ng/stargazers)  
+16. **[syslog-ng](https://github.com/syslog-ng/syslog-ng)** [![GitHub_Stars](https://img.shields.io/github/stars/syslog-ng/syslog-ng?style=social&color=white)](https://github.com/syslog-ng/syslog-ng/stargazers)  
     Enhanced, enterprise-grade system log daemon with rich content-based filtering, message parsing, pattern classification, secure transport, and direct routing to databases and search backends.
 
-17. **[rsyslog](https://github.com/rsyslog/rsyslog)** [![GitHub stars](https://img.shields.io/github/stars/rsyslog/rsyslog?style=social&color=white)](https://github.com/rsyslog/rsyslog/stargazers)  
+17. **[rsyslog](https://github.com/rsyslog/rsyslog)** [![GitHub_Stars](https://img.shields.io/github/stars/rsyslog/rsyslog?style=social&color=white)](https://github.com/rsyslog/rsyslog/stargazers)  
     Rocket-fast, high-performance syslog processing daemon offering multi-threading, dynamic rulesets, TLS encryption, and high-volume message queuing for traditional Linux server environments.
 
 ---
@@ -170,7 +170,7 @@ Contributions from the developer, DevOps, and SRE communities are warmly welcome
 2. **Create a branch** for your update: `git checkout -b add-logging-tool`.
 3. **Follow the formatting conventions**:
    - For **SaaS platforms**: Add to the table with company size, verified starting tier pricing, and free tier/trial details.
-   - For **Open-Source projects**: Add the project with its official GitHub link, description, and star badge (`[![GitHub stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`). Keep entries sorted by star count.
+   - For **Open-Source projects**: Add the project with its official GitHub link, description, and Stars_Badge (`[![GitHub_Stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/{owner}/{repo}/stargazers)`). Keep entries sorted by Stars_Count.
 4. **Submit a Pull Request** with a concise description of your changes.
 
 Check out our sister curated repositories at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
